@@ -1,0 +1,19 @@
+
+header nav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+header a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 30px 100px;
+    border-radius: 30px;
+    margin: 30px 100px;
+}
+header a:hover{
+    background-color: brown;
+}
+

@@ -1,0 +1,93 @@
+
+
+header nav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+header a{
+    color: white;
+    display: flex;
+    text-decoration: none;
+   justify-content: space-around;
+}
+header a:hover{
+    background-color: brown;
+}
+.main{
+    border: 1px solid black;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    gap: 10px;
+    grid-template-areas:
+    "area1 area2 area3"
+    "area4 area5 area6"
+    "area7 area8 area9"    
+    ;
+    
+
+}
+@media (max-width: 320px){
+    .main{
+        border: 1px solid black;
+        margin: 5px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9, 50px);
+        gap: 10px;
+        grid-template-areas:
+        "area1"
+        "area2"
+        "area3"    
+        "area4"
+        "area5"
+        "area6"
+        "area7"
+        "area8"
+        "area9"
+        ;
+    }
+}
+.area{
+    border: 1px solid black;   
+}
+
+#area1{
+    background-color: red;
+    
+}
+#area2{
+    background-color: blue;
+    
+}
+#area3{
+    background-color: yellow;
+    grid-area: area3;
+}
+#area4{
+    background-color: purple;
+    grid-area: area4;
+}
+#area5{
+    background-color: chocolate;
+    grid-area: area5;
+}
+#area6{
+    background-color: aqua;
+    grid-area: area6;
+}
+#area7{
+    background-color: gray;
+    grid-area: area7;
+}
+#area8{
+    background-color: darkgreen;
+    grid-area: area8;
+}
+#area9{
+    background-color: darkorange;
+    grid-area: area9;
+}
