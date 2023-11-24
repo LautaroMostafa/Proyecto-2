@@ -3,7 +3,7 @@ header nav{
     background-color: black;
     display: flex;
     justify-content: center;
-    
+    flex-wrap: wrap;
 }
 header a{
     color: white;
@@ -17,3 +17,39 @@ header a:hover{
     background-color: brown;
 }
 
+
+.container{
+    margin-top: 20px;
+}
+.recuadro{
+    margin: 20px;
+    border: 2px solid black;
+}
+.recuadro:hover{
+    box-shadow: 0 8px 16px rgba( 0, 0, 0, 1 );
+}
+.messi{
+    text-align: center;
+    color: aqua;
+}
+.cr7{
+    text-align: center;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.img-propia{
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}

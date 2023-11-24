@@ -30,6 +30,8 @@ header a:hover{
     "area3 area3 area3"
     ;
 }
+
+/* Media */
 @media (max-width: 1000px){
     .submain{
         margin: 5px;
@@ -51,6 +53,8 @@ header a:hover{
         width: 200%;
     }
 }
+
+/* Movile */
 @media screen and (max-width: 360px){
     .submain{
         margin: 5px;
@@ -99,6 +103,7 @@ header a:hover{
 
 .area{
     border-bottom: 3px solid black;
+    box-shadow: 0 4px 8px rgba( 0, 0, 0, 1 );
 }
 
 /* Area 1 */
@@ -114,12 +119,12 @@ header a:hover{
     width: 100%;
     height: 100%;
 }
-.img1 h1{
+.info1 h1{
     text-align: center;
     color: red;
     padding: 10px;
 }
-.img1 p{
+.info1 p{
     padding: 10px;
 }
 
